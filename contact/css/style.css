@@ -1,0 +1,137 @@
+*{
+	box-sizing: border-box;
+}
+@font-face{
+	font-family: 'Brandon';
+	src: url(../fonts/Brandon_reg.otf);
+	font-weight: normal;
+}
+@font-face{
+	font-family: 'Brandon';
+	src: url(../fonts/Brandon_med.otf);
+	font-weight: 800;
+}
+@font-face{
+	font-family: 'Brandon';
+	src: url(../fonts/Brandon_thin.otf);
+	font-weight: 200;
+}
+body{
+	font-family: Brandon,Helvetica, Arial, sans-serif;
+	font-size: 15px;
+}
+
+nav{
+	max-width: 1250px;
+	margin-left: 150px;
+	margin-right: 100px;
+	margin-top: 30px;
+}
+.container{
+	margin-top: 30px;
+}
+.bg-img{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	z-index: -1;
+	top: 0;
+	left: 0;
+}
+.circle{
+	border-radius:50%;
+}
+.photo{
+	width: 100px;
+}
+.Home{
+	text-align: center;
+}
+.Home h1{
+	margin-top:200px;
+	font-size: 4rem;
+}
+.Home h2{
+	font-size: 2rem;
+}
+nav ul li{
+	display: inline-block;
+	font-size: 1.3rem;
+	margin-right: 20px;
+}
+nav ul li a:hover{
+	color:white;
+}
+
+nav ul li a:hover{
+	transition: color 0.75s ease;
+}
+nav .photo{
+	display: inline-block;
+	vertical-align: middle;
+}
+nav ul{
+	display: inline-block;
+	width: 80%;
+	vertical-align: middle;
+	text-align: right;
+}
+a{
+	color:#d84f4b;
+	text-decoration: none;
+}
+input:hover, textarea:hover{
+	background-color: #ccc;
+}
+input,textarea,label{
+	display: block;
+}
+input,textarea,.btn-send{
+	font-size: 2rem;
+	padding: 10px;
+	border-radius: 10px;
+	border: 1px, solid, #ccc;
+	font-weight: 200;
+	margin-bottom: 10px;
+	width:100%;
+	transition: background-color 0.5 linear;
+}
+label{
+	font-size: 1rem;
+	color:#888;
+}
+form{
+	margin-left: auto;
+	margin-right: auto;
+	max-width:500px;
+}
+.btn-send{
+	 font-size: 1rem;
+	 background-color:#2196F3;
+	 color: white;
+	 padding:15px;
+	 width:100%;
+	 cursor:pointer;
+	 border: 1px solid;
+	 border-color: black;
+	 margin-top: 30px;
+}
+.btn-send:hover{
+	background-color: #55b0f9;
+}
+footer{
+	background-color: #333;
+	color:#ccc;
+	padding: 10px;
+	text-align: center;
+	margin-top: 50px;
+	margin-left:auto;
+	bottom: 0px;
+	position: fixed;
+	width: 100%;
+	left: 0px;
+}
+footer h3{
+	font-size:1rem;
+	font-weight: 200;
+}

@@ -1,0 +1,25 @@
+/* 重复定义相同标签样式 回覆盖原有的样式 */
+/* rgb 格式可以调控透明度 */
+/* rem 相对基准字体比例 rem=20px 1.5rem= 30px */
+/* inline style  */
+/* margin 从外部开始算距离 包括边框*/
+/* padding 从内部开始算距离 */
+/* border 是从div 外面开始加边框 */
+/* 一个页面只有一个 #ID 但可以有多个 .class */
+/* 多个div间 是分行的 如果希望单行有多个div 需要使用 float：left  */
+/* position 有三类 static默认的 relative abosulute 如果上一级有位置关系 会变为上一级的起始点 */
+body{
+	font-family: ;
+	font-size: 18px; 
+	background-color: #3AFF3A；
+
+}
+
+/* 会更改所有div 下 的 所有p的颜色  */
+div p{
+	color: #ff0000;
+}
+/* 只会更改p 且p的唯一parent为div  */
+div > p {
+	color: #ff0000;
+}
